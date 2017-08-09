@@ -1,0 +1,78 @@
+\documentclass{article}
+\title{Solution 5}
+\author{@kyrylo}
+
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{centernot}
+\usepackage{amsfonts}
+
+\begin{document}
+
+\section*{Solutions to assignment 5}
+
+\section{}
+
+\begin{enumerate}[(a)]
+\item $(\exists x \in \mathbb{N})[x^3 = 27]$
+\item $(\exists x \in \mathbb{N})[x > 1000000]$
+\item $(\exists p \in \mathbb{N})(\exists q \in \mathbb{N}[p > 1 \wedge q > 1 \wedge n = pq)$
+\end{enumerate}
+
+\section{}
+
+\begin{enumerate}[(a)]
+\item $(\forall x \in \mathbb{N})\neg[x^3 = 28]$
+\item $(\forall n \in \mathbb{N})[0 < n]$
+\item $(\forall p \in \mathbb{N})(\forall q \in \mathbb{N})[(n = pq \implies (p = 1 \vee q = 1)]$
+\end{enumerate}
+
+\section{}
+
+\begin{enumerate}[(a)]
+\item $\forall e\exists s[love(e, s)]$
+\item $\forall e[tall(e) \vee short(s)]$
+\item $(\forall e)[tall(e)] \vee (\forall e)[short(e)]$
+\item $\neg(\forall e)[athome(e)]$
+\item $Comes(John) \implies (\forall x)[Woman(x) \implies Leaves(x)]$
+\item $(\exists x)[Man(x) \wedge Comes(x)] \implies (\forall x)[Woman(x) \implies Leaves(x)]$
+\end{enumerate}
+
+\section{}
+
+\begin{enumerate}[(a)]
+\item $(\forall a \in \mathbb{R})(\exists x \in \mathbb{R})[x^2 + a = 0]$
+\item $(\forall a \in \mathbb{R})[(a < 0) \implies (\exists x \in \mathbb(R)(x^2 + a = 0)]$
+\item $(\forall x \in \mathbb{R})(\exists m \in \mathbb{N})(\exists n \in \mathbb{N})[m = nx \vee m = -nx \vee x = 0]$
+\item $(\exists x \in \mathbb{R})(\forall m \in \mathbb{N})(\forall n \in \mathbb{N})[m \neq nx \wedge m \neq -nx]$
+\item $(\forall y \in \mathbb{R})(\exists x \in \mathbb{R})[(x > y) \wedge (\forall m \in \mathbb{N})(\forall n \in \mathbb{N})(m \neq nx)]$
+\end{enumerate}
+
+\section{}
+
+\begin{enumerate}[(a)]
+\item $(\forall x \in C)[D(x) \implies M(x)]$
+\item $(\forall x \in C)[\neg D(x) \implies M(x)]$
+\item $(\forall x \in C)[M(x) \implies D(x)]$
+\item $(\exists x \in C)[D(x) \wedge \neg M(x)]$
+\item $(\exists x \in C)[\neg D(x) \wedge M(x)]$
+\end{enumerate}
+
+\section{}
+
+$\forall x \forall y[(x < y) \implies \exists z(Q(z) \wedge (x < z < y))]$
+
+\section{}
+
+$(\exists t)(\forall p)[Fool(p, t)] \wedge (\exists p)(\forall t)[Fool(p, t)] \wedge (\forall p)(\forall t)\neg[Fool(p, t)]$
+
+\section{}
+
+$\exists x \forall t A(x, t)$
+
+
+\section{}
+
+$\forall t \exists t A(x, t)$
+
+\end{document}
